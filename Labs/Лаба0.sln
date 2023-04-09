@@ -1,0 +1,24 @@
+#define _CRT_SECURE_NO_WARNINGS
+//12.Ввести три целых числа. Вычислить и вывести остаток от деления второго числа на первое.
+#include <stdio.h>
+int main()
+{
+	int a = 0;
+	int b = 0;
+	int c = 0;
+	int d = 0;
+	printf("the first number ");
+	scanf("%d", &a);
+	if (a == 0)
+	{
+		printf("enter another number");
+		return 0;
+	}
+	printf("the second number ");
+	scanf("%d", &b);
+	printf("the third number ");
+	scanf("%d", &c);
+	d = b % a;
+	printf("remainder of the division %d", d);
+	return 0;
+}

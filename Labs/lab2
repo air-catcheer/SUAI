@@ -1,0 +1,34 @@
+#define _CRT_SECURE_NO_WARNINGS
+//12.Ввести строку, вывести самое короткое слово.
+#include <stdio.h>
+int main(void)
+{
+    int LEN=0, min=101, i=0;
+    int len, point;
+    char str[100]={0};
+    fgets(str, 100, stdin);
+    while(str[LEN]!=0 && str[LEN]!='\n')
+    {
+        if(str[LEN]==' ') str[LEN]=0;
+        LEN++;
+    }
+    str[LEN]=0;
+    LEN++;
+    while(i < LEN)
+    {
+        len = 0;
+        if (str[i] == 0 || (str[i] >= '0' && str[i] <= '9'))
+        {
+            i++;
+            continue;
+        }
+        while(str[i++] != 0) len++;
+        if(min > len)
+        {
+            min = len;
+            point = i-len-1;
+        }
+    }
+    printf("%s\n", str+point);
+    return 0;
+}
