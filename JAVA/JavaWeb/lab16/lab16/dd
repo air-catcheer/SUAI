@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<!-- saved from url=(0028)http://localhost:8080/lab16/ -->
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <title>NOTES</title>
+    <link rel="stylesheet" href="./NOTES_files/style.css">
+    <script async="" src="./NOTES_files/script.js"></script>
+</head>
+
+<body id="bd">
+    <h1>LIST</h1>
+
+
+
+    <div>
+        <ol>
+            <li>
+                <a> bird </a>
+
+                <button class="list" height="15" width="15">
+                    [+]
+                </button>
+
+                <ul>
+                    <li class="mv" style="display: block;">coroka</li>
+                    <li class="mv" style="display: block;">popugay</li>
+                    <li class="mv" style="display: block;">vorona</li>
+                </ul>
+            </li>
+            <li>
+                <a> fish </a>
+
+                <button class="list">
+                    <a>[+]</a>
+                </button>
+                <ul>
+                    <li class="mv" style="display: block;">plotva</li>
+                    <li class="mv" style="display: block;">shark</li>
+                    <li class="mv" style="display: block;">kit</li>
+                </ul>
+
+            </li>
+            <li>
+                <a> animals </a>
+
+                <button class="list">
+                    <a>[+]</a>
+                </button>
+                <ul>
+                    <li class="mv" style="display: block;">lion</li>
+                    <li class="mv" style="display: block;">hedgehoge</li>
+                    <li class="mv" style="display: block;">giraffe</li>
+                </ul>
+
+            </li>
+        </ol>
+
+    </div>
+
+</body>
+
+</html>

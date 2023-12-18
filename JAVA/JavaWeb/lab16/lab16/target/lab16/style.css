@@ -1,0 +1,93 @@
+.note {
+    border-width: 7px;
+    border-color: #7cc7aa;
+    border-style: solid;
+    border-radius: 10px;
+
+    background-color: lightblue;
+    margin-left: 70px;
+    float: left;
+    margin-top: 60px;
+    width: 450px;
+    margin-right: 10px;
+}
+
+
+.note h3 {
+    text-align: center;
+    color: red;
+    padding: 1px;
+    border: #0b2219;
+}
+
+.note h4 {
+    margin-top: 5px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(209, 160, 24);
+
+}
+
+
+.note a {
+    color: rgb(0, 77, 77);
+}
+
+.note p {
+    color: darkblue;
+}
+
+h1 {
+    text-align: center;
+    color: cadetblue;
+    font-weight: 600;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+body {
+    background-color: rgb(224, 189, 146);
+}
+
+hr {
+    color: cadetblue;
+    border-style: solid;
+    border-width: 10px;
+    border-color: cadetblue;
+}
+
+a {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    color: cadetblue;
+}
+
+form {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+p {
+    text-align: left;
+    color: rgb(180, 105, 43);
+    font-weight: 600;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+input {
+    text-align: center;
+    color: black;
+    background-color: beige;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+label {
+    font-family: 'Courier New', Courier, monospace;
+    /* background-color: beige; */
+}
+
+textarea {
+    /* background-color: beige; */
+    /* color: beige; */
+    font-family: 'Courier New', Courier, monospace;
+}

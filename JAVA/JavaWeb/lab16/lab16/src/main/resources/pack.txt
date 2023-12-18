@@ -1,0 +1,3 @@
+bird//pigeon//crow//sparrow//seagull
+animals//giraffe//hippopotamus//crocodile
+fish//perch//pike
